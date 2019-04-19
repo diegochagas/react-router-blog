@@ -1,4 +1,14 @@
-# react-router-blog
-Test with React Router and Redux Form using the Blog Post API to create a simple blog. After install all the dependences and start, the access for this test is on http://localhost:8080/
+# Blog
 
-The Blog Post API are available on http://reduxblog.herokuapp.com/ .
+Web app that shows a list of posts, based on the course [Modern React with Redux [2019 Update]](https://www.udemy.com/react-redux/) available on Udemy created by [Stephen Grider](https://www.udemy.com/react-redux/).
+
+## Used technologies
+
+- React
+- Redux
+- Axios
+- Thunk
+- HTML
+- CSS
+- JavaScript
+
