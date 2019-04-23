@@ -12,12 +12,13 @@ class PostList extends Component {
 	renderList(){
 		return this.props.posts.map(post => {
 			return(
-				<li className="item" key={post.id}>  
-          <div className="post-description">
-            <h2>{post.title}</h2>
-            <p>{post.body}</p>
+				<li className="post-list-item" key={post.id}>  
+					<i className="fas fa-user"></i>
+					<div className="post-description">
+						<h2>{post.title}</h2>
+						<p>{post.body}</p>
 						<UserHeader userId={post.userId}/>
-          </div>
+					</div>
 				</li>
 			);
 		});

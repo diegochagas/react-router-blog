@@ -9,6 +9,7 @@ Web app that shows a list of posts, based on the course [Modern React with Redux
 - Thunk
 - Axios
 - Lodash
+- Font Awesome
 - HTML
 - CSS
 - JavaScript
