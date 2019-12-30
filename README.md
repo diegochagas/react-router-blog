@@ -1,6 +1,6 @@
 # Blog
 
-Web app that shows a list of posts, based on the course [Modern React with Redux [2019 Update]](https://www.udemy.com/react-redux/) available on Udemy created by [Stephen Grider](https://github.com/StephenGrider).
+Web app that shows a list of posts.
 
 ## Used technologies
 
@@ -10,7 +10,6 @@ Web app that shows a list of posts, based on the course [Modern React with Redux
 - Axios
 - Lodash
 - JSONPlaceholder
-- Font Awesome
 - HTML
 - CSS
 - JavaScript

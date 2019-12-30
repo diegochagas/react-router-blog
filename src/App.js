@@ -1,6 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 
+import './styles/styles.css';
 import './App.css';
 import PostList from './components/PostList';
 
