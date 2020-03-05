@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 
 import { fetchPostsAndUsers } from '~/store/modules/posts/actions';
 import { Container } from './styles';
 import logo from '~/assets/logo.svg';
 
-export default function Header() {
-  const [hideBtn, setHideBtn] = useState(false);
-
+export default function Header({ hideBtn, setHideBtn }) {
   const dispatch = useDispatch();
 
   function handleClick() {
